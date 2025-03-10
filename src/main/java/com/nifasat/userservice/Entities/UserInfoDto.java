@@ -32,7 +32,6 @@ public class UserInfoDto {
     private Long phoneNumber;
     @NonNull
     private String email;
-    @NonNull
     private String profilePic;
 
     public UserInfo convertToUserInfo(){
